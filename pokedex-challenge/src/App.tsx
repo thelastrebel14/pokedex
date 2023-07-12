@@ -1,10 +1,12 @@
 import axios from 'axios';
 import { useEffect } from 'react';
 import './App.css'
-import PokemonList from './components/PokemonList.component'
 import PokemonPreview from './components/pokemon-preview/PokemonPreview.component'
 import { useDispatch } from 'react-redux';
 import { setPokemonList, updateSelectedPokemon } from './redux/globalSlice';
+import PokemonDetails from './components/pokemon-details/PokemonDetails.component';
+import PokemonList from './components/pokemon-list/PokemonList.component';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const dispatch = useDispatch();
@@ -36,9 +38,13 @@ const selectDefaultPokemon = async () => {
 };
 
   return (
-    <div className='pokedex-main'>
+    <div className='app-container'>
       <PokemonPreview/>
-      <PokemonList/>
+      <Routes>
+        <Route path='/pokemon' element={<PokemonList/>}/>
+        <Route path='/pokemon/:pokemonName' element={<PokemonDetails/>}/>
+      </Routes>
+      
     </div>
   )
 }

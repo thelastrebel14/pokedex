@@ -3,63 +3,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.pokedex-main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  background-color: #D90D58;
-}
-
-.pokedex-logo-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .pokedex-logo-img {
-    max-width: 100%;
-    height: auto;
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid gainsboro;
   }
 }
 
-.pokemon-preview-container {
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.pokemon-image-preview-container {
-  width: 90px;
-  height: 90px;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pokemon-list-container {
-  background-color: white;
-  padding: 5px;
-  .pokemon-list-element{
-    max-height: 30px;
-    width: 100%;
-    height: 100%;
-    .pokemon-link-element {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin: 5px;
-      .pokeball{
-        max-height: 20px;
-        object-fit: contain;
-      }
-    }
-    
-  }
-}
