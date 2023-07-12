@@ -1,0 +1,33 @@
+.pokemon-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .name-container {
+        .name-label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .weight-and-height-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .w-h-detail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            .w-h-label {
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .w-h-value {
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+}
