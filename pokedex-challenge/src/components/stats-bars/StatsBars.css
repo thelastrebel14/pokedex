@@ -1,0 +1,26 @@
+.stats-bars-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .stats-bars-label {
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    .stats-bar-list {
+        .stats-bar-element {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 5px;
+            .stat-label {
+                margin-right: 5px;
+            }
+            .progress {
+                min-width: 200px;
+            }
+        }
+    }
+}
