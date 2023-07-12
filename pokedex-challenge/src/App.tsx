@@ -7,6 +7,7 @@ import { setPokemonList, updateSelectedPokemon } from './redux/globalSlice';
 import PokemonDetails from './components/pokemon-details/PokemonDetails.component';
 import PokemonList from './components/pokemon-list/PokemonList.component';
 import { Route, Routes } from 'react-router-dom';
+import Button from './components/button/Button.component';
 
 function App() {
   const dispatch = useDispatch();
@@ -19,7 +20,7 @@ const getPokemonList = async () => {
   try {
     await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=20&offset=0`)
     .then((data) => {
-      dispatch(setPokemonList({pokemonList: data.data.results}))
+      dispatch(setPokemonList({pokemonList: data.data.results, next: data.data.next, previous: data.data.previous}))
     });
   } catch (error) {
     console.error('Error:', error);
@@ -40,10 +41,11 @@ const selectDefaultPokemon = async () => {
   return (
     <div className='app-container'>
       <PokemonPreview/>
-      <Routes>
+      {/* <Routes>
         <Route path='/pokemon' element={<PokemonList/>}/>
         <Route path='/pokemon/:pokemonName' element={<PokemonDetails/>}/>
-      </Routes>
+      </Routes> */}
+      <Button/>
       
     </div>
   )

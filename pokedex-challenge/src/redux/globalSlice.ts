@@ -3,7 +3,9 @@ import { IAbilities, IPokemon, IPokemonElement, IStats, IType } from "../compone
 
 export interface IGlobalInitialState {
     pokemonList: Array<IPokemonElement>,
-    selectedPokemon: IPokemon
+    selectedPokemon: IPokemon,
+    next: string,
+    previous: string
 }
 
 const initialState: IGlobalInitialState = {
@@ -19,7 +21,9 @@ const initialState: IGlobalInitialState = {
             pokemonAbilities: [],
             pokemonStats: []
         }
-    }
+    },
+    next: '',
+    previous: ''
 }
 
 export const globalSlice = createSlice({
@@ -27,9 +31,12 @@ export const globalSlice = createSlice({
     initialState,
     reducers: {
         setPokemonList: (state: IGlobalInitialState, action) => {
-            const {pokemonList} = action.payload;
+            const {pokemonList, next, previous} = action.payload;
+            console.log({pokemonList, next, previous});
             const pokemons: Array<IPokemonElement> = pokemonList.map((pokemon: any) => ({name: pokemon.name, detailsUrl: pokemon.url}))
             state.pokemonList = pokemons;
+            state.next = next;
+            state.previous = previous;
         },
         updateSelectedPokemon: (state: IGlobalInitialState, action) => {
             const {selectedPokemon} = action.payload;
