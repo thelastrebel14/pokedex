@@ -5,6 +5,7 @@ import './PokemonDetails.css';
 import { getChipsList } from '../../utils';
 import StatsBars from '../stats-bars/StatsBars.component';
 import PokemonDescription from '../pokemon-description/PokemonDescription.component';
+import LinkButton from '../link-button/LinkButton.component';
 
 const PokemonDetails = () => {
   const globalStore = useSelector((state: any) => state.global);
@@ -26,6 +27,7 @@ const PokemonDetails = () => {
 
     return (
       <div className='pokemon-details-container'>
+        <LinkButton/>
         <PokemonDescription
             pokemonName={selectedPokemon.name}
             pokemonId={pokemonDescription.pokemonId}
