@@ -10,12 +10,16 @@ export interface IPokemon {
 }
 
 export interface IPokemonDetails {
-    pokemonType: string;
+    pokemonType: Array<IType>;
     pokemonId: string;
     pokemonHeight: number;
     pokemonWeight: number;
     pokemonAbilities: Array<IAbilities>;
     pokemonStats: Array<IStats>;
+}
+
+export interface IType {
+    typeName: string;
 }
 
 export interface IAbilities {

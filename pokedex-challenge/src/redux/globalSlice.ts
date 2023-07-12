@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import { IAbilities, IPokemon, IPokemonElement, IStats } from "../components/Pokemon.definitions";
+import { IAbilities, IPokemon, IPokemonElement, IStats, IType } from "../components/Pokemon.definitions";
 
 export interface IGlobalInitialState {
     pokemonList: Array<IPokemonElement>,
@@ -12,7 +12,7 @@ const initialState: IGlobalInitialState = {
         name: '',
         pokemonSprite: '',
         pokemonDetails: {
-            pokemonType: '',
+            pokemonType: [],
             pokemonId: '',
             pokemonHeight: 0,
             pokemonWeight: 0,
@@ -33,8 +33,8 @@ export const globalSlice = createSlice({
         },
         updateSelectedPokemon: (state: IGlobalInitialState, action) => {
             const {selectedPokemon} = action.payload;
-            const pokemonTypes = selectedPokemon.types.map((pokemonType: any) => (
-                {typeName: pokemonType.name}
+            const pokemonTypes: Array<IType> = selectedPokemon.types.map((pokemonType: any) => (
+                {typeName: pokemonType.type.name}
                 ));
             const pokemonAbilities: Array<IAbilities> = selectedPokemon.abilities.map((pokemonAbility: any) => ({abilityName: pokemonAbility.ability.name}))
             const pokemonStats: Array<IStats> = selectedPokemon.stats.map((pokemonStat: any) => ({statName: pokemonStat.stat.name, baseStat: pokemonStat.base_stat}))
