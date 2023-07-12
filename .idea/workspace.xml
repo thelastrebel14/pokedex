@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e59cd87-f174-48ec-9048-023fac252d85" name="Changes" comment="Button component added">
+      <change beforePath="$PROJECT_DIR$/pokedex-challenge/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex-challenge/src/App.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SDn8WsQwvzOJwnmozxtSManCA8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Whatsername/Desktop/Density Labs&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Whatsername\Desktop\Density Labs\pokedex\pokedex-challenge" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e59cd87-f174-48ec-9048-023fac252d85" name="Changes" comment="" />
+      <created>1688689863160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688689863160</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New pokedex project created">
+      <option name="closed" value="true" />
+      <created>1688690566729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688690566729</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pokemon definitions file added">
+      <option name="closed" value="true" />
+      <created>1688774040367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688774040367</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pokemon globalSlice.ts action updated for selected pokemon">
+      <option name="closed" value="true" />
+      <created>1689034508654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689034508654</updated>
+    </task>
+    <task id="LOCAL-00004" summary="App configuration for router">
+      <option name="closed" value="true" />
+      <created>1689034538461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689034538461</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pokedex logo">
+      <option name="closed" value="true" />
+      <created>1689034601086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689034601086</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pokemon list display">
+      <option name="closed" value="true" />
+      <created>1689034621977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689034621977</updated>
+    </task>
+    <task id="LOCAL-00007" summary="IType added to global definitions">
+      <option name="closed" value="true" />
+      <created>1689130148588</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689130148588</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bootstrap added to dependencies">
+      <option name="closed" value="true" />
+      <created>1689130183927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689130183927</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Pokemon image preview added">
+      <option name="closed" value="true" />
+      <created>1689130214806</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689130214806</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Pokemon preview imports cleanup">
+      <option name="closed" value="true" />
+      <created>1689130256150</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689130256150</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chips component created">
+      <option name="closed" value="true" />
+      <created>1689133103510</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689133103510</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chips and StatsBars.component.tsx added to PokemonDetails.component.tsx">
+      <option name="closed" value="true" />
+      <created>1689133157250</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689133157250</updated>
+    </task>
+    <task id="LOCAL-00013" summary="StatsBars.component.tsx created and added to PokemonDetails">
+      <option name="closed" value="true" />
+      <created>1689133186571</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689133186571</updated>
+    </task>
+    <task id="LOCAL-00014" summary="StatsBars.component.tsx and Chip implementation updated">
+      <option name="closed" value="true" />
+      <created>1689136161585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689136161585</updated>
+    </task>
+    <task id="LOCAL-00015" summary="PokemonDetails.component.tsx created and implemented">
+      <option name="closed" value="true" />
+      <created>1689136242599</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689136242599</updated>
+    </task>
+    <task id="LOCAL-00016" summary="PokemonDetails.component.tsx code cleanup">
+      <option name="closed" value="true" />
+      <created>1689136607122</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689136607122</updated>
+    </task>
+    <task id="LOCAL-00017" summary="PokemonDetails.component.tsx code cleanup">
+      <option name="closed" value="true" />
+      <created>1689136629975</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689136629975</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Chip.component.tsx collor pallete updated">
+      <option name="closed" value="true" />
+      <created>1689140016720</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689140016720</updated>
+    </task>
+    <task id="LOCAL-00019" summary="chip cleanup">
+      <option name="closed" value="true" />
+      <created>1689196584157</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196584157</updated>
+    </task>
+    <task id="LOCAL-00020" summary="PokedexLogo.component.tsx image updated">
+      <option name="closed" value="true" />
+      <created>1689196637076</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196637076</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Pokemon preview updated">
+      <option name="closed" value="true" />
+      <created>1689196697530</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196697530</updated>
+    </task>
+    <task id="LOCAL-00022" summary="PokemonDescription.component.tsx created">
+      <option name="closed" value="true" />
+      <created>1689196742207</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196742207</updated>
+    </task>
+    <task id="LOCAL-00023" summary="PokemonList.component.tsx component updated">
+      <option name="closed" value="true" />
+      <created>1689196766166</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196766166</updated>
+    </task>
+    <task id="LOCAL-00024" summary="App component updated. Router added">
+      <option name="closed" value="true" />
+      <created>1689196794674</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196794674</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Link button added to details screen">
+      <option name="closed" value="true" />
+      <created>1689199827737</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689199827737</updated>
+    </task>
+    <task id="LOCAL-00026" summary="node_modules">
+      <option name="closed" value="true" />
+      <created>1689199894954</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1689199894954</updated>
+    </task>
+    <task id="LOCAL-00027" summary="node_modules">
+      <option name="closed" value="true" />
+      <created>1689199981124</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1689199981124</updated>
+    </task>
+    <task id="LOCAL-00028" summary="project folders refactor">
+      <option name="closed" value="true" />
+      <created>1689202451949</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689202451949</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Button component added">
+      <option name="closed" value="true" />
+      <created>1689202473495</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689202473495</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pokemon globalSlice.ts action updated for selected pokemon" />
+    <MESSAGE value="App configuration for router" />
+    <MESSAGE value="Pokedex logo" />
+    <MESSAGE value="Pokemon list display" />
+    <MESSAGE value="IType added to global definitions" />
+    <MESSAGE value="Bootstrap added to dependencies" />
+    <MESSAGE value="Pokemon image preview added" />
+    <MESSAGE value="Pokemon preview imports cleanup" />
+    <MESSAGE value="Chips component created" />
+    <MESSAGE value="Chips and StatsBars.component.tsx added to PokemonDetails.component.tsx" />
+    <MESSAGE value="StatsBars.component.tsx created and added to PokemonDetails" />
+    <MESSAGE value="StatsBars.component.tsx and Chip implementation updated" />
+    <MESSAGE value="PokemonDetails.component.tsx created and implemented" />
+    <MESSAGE value="PokemonDetails.component.tsx code cleanup" />
+    <MESSAGE value="Chip.component.tsx collor pallete updated" />
+    <MESSAGE value="chip cleanup" />
+    <MESSAGE value="PokedexLogo.component.tsx image updated" />
+    <MESSAGE value="Pokemon preview updated" />
+    <MESSAGE value="PokemonDescription.component.tsx created" />
+    <MESSAGE value="PokemonList.component.tsx component updated" />
+    <MESSAGE value="App component updated. Router added" />
+    <MESSAGE value="Link button added to details screen" />
+    <MESSAGE value="node_modules" />
+    <MESSAGE value="project folders refactor" />
+    <MESSAGE value="Button component added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button component added" />
+  </component>
+</project>
