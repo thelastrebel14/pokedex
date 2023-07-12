@@ -1,0 +1,25 @@
+.pokemon-preview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .pokemon-image-preview-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        .pokemon-sprite {
+            width: 140px;
+            height: 140px;
+        }
+      }
+      .pokedex-logo-container {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .pokedex-logo-img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+}
