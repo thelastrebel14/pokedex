@@ -1,6 +1,4 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import PokedexLogo from './PokedexLogo.component';
+import React from 'react';
 import PokemonImagePreview from './PokemonImagePreview.component';
 
 const PokemonPreview = () => {
