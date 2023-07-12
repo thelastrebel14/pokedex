@@ -1,0 +1,19 @@
+.chips-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;
+    .chip {
+        padding: 5px 12px;
+        border: 1px solid #E3E3E3;
+        background-color: #E3E3E3;
+        border-radius: 20px;
+        cursor: default;
+        margin-right: 10px;
+        .chip-label {
+            color: #919191;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
