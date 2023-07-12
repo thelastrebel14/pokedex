@@ -21,7 +21,7 @@
             cursor: default;
             margin-right: 10px;
             .chip-label {
-                color: #919191;
+                color: white;
                 font-size: 14px;
                 font-weight: bold;
             }
