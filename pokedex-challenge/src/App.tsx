@@ -18,7 +18,7 @@ function App() {
 
 const getPokemonList = async () => {
   try {
-    await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=20&offset=0`)
+    await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=150&offset=0`)
     .then((data) => {
       dispatch(setPokemonList({pokemonList: data.data.results, next: data.data.next, previous: data.data.previous}))
     });
