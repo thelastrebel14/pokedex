@@ -32,7 +32,6 @@ const PokemonList = () => {
     const endIndex = startIndex + itemsPerPage;
     const currentPokemonList = pokemonList.slice(startIndex, endIndex);
     const maxPage = Math.ceil(pokemonList.length / itemsPerPage);
-    console.log({currentPage, maxPage})
 
     const goToPreviousPage = () => {
       if (currentPage > 1) {
