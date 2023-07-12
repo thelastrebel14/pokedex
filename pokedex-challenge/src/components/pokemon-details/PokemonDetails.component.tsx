@@ -2,7 +2,6 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { IAbilities, IPokemon, IPokemonDetails, IStats, IType } from '../Pokemon.definitions';
 import './PokemonDetails.css';
-import Chip from '../chips/Chip.component';
 import { getChipsList } from '../../utils';
 import StatsBars from '../stats-bars/StatsBars.component';
 import PokemonDescription from '../pokemon-description/PokemonDescription.component';
