@@ -1,0 +1,21 @@
+.pokemon-list-container {
+    background-color: white;
+    padding: 5px;
+    .pokemon-list-element{
+      max-height: 30px;
+      width: 100%;
+      height: 100%;
+      .pokemon-link-element {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        .pokeball{
+          max-height: 20px;
+          object-fit: contain;
+        }
+      }
+      
+    }
+  }
