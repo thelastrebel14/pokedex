@@ -20,6 +20,7 @@
             }
             .progress {
                 min-width: 200px;
+                background-color: #E3E3E3;
             }
         }
     }
