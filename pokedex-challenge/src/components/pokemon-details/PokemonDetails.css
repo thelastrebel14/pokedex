@@ -1,0 +1,44 @@
+.pokemon-details-container {
+    display: flex;
+    flex-direction: column;
+    
+    .pokemon-types-chips {
+      display: flex;
+      flex-direction: row;
+      margin: 5px;
+    }
+    .pokemon-description {
+        display: flex;
+        .pokemon-details-description {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+    }
+    .pokemon-details {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+        .stats-bar-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px;
+            .progress {
+              min-width: 200px;
+            }
+            .stats-bar-label {
+              margin-right: 5px;
+            }
+        }
+    }
+    .pokemon-abilities-list {
+      margin: 5px;
+        .pokemon-ability-element {
+          display: flex;
+          justify-content: center;
+        } 
+    }
+}
