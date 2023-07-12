@@ -41,12 +41,10 @@ const selectDefaultPokemon = async () => {
   return (
     <div className='app-container'>
       <PokemonPreview/>
-      {/* <Routes>
+      <Routes>
         <Route path='/pokemon' element={<PokemonList/>}/>
         <Route path='/pokemon/:pokemonName' element={<PokemonDetails/>}/>
-      </Routes> */}
-      <Button/>
-      
+      </Routes>
     </div>
   )
 }
