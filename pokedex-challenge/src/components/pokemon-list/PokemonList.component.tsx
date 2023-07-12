@@ -31,6 +31,8 @@ const PokemonList = () => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const currentPokemonList = pokemonList.slice(startIndex, endIndex);
+    const maxPage = Math.ceil(pokemonList.length / itemsPerPage);
+    console.log({currentPage, maxPage})
 
     const goToPreviousPage = () => {
       if (currentPage > 1) {
@@ -39,7 +41,6 @@ const PokemonList = () => {
     };
 
     const goToNextPage = () => {
-      const maxPage = Math.ceil(pokemonList.length / itemsPerPage);
       if (currentPage < maxPage) {
         setCurrentPage(currentPage + 1);
       }
@@ -71,8 +72,13 @@ const PokemonList = () => {
           })}
         </ul>
         <div className='pagination-container'>
+        {currentPage > 1 && (
           <Button onClick={goToPreviousPage} label='Previous'></Button>
+        )}
+        {currentPage < maxPage && (
           <Button onClick={goToNextPage} label='Next'></Button>
+        )}
+          
         </div>
       </div>
       
