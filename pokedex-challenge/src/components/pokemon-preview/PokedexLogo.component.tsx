@@ -1,11 +1,11 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
-import PokedexLogoImg from '../../assets/logo.svg';
+import React from 'react';
+import Pokeball from '../../assets/open-pokeball.png';
+import './PokemonPreview.css'
 
 const PokedexLogo = () => {
     return (
       <div className='pokedex-logo-container'>
-        <img src={PokedexLogoImg} className='pokedex-logo-img'></img>
+        <img src={Pokeball} className='pokedex-logo-img'></img>
       </div>
     );
 }
