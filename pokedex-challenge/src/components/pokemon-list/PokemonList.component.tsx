@@ -53,7 +53,7 @@ const PokemonList = () => {
             return (
               <li
               key={pokemon.name}
-              className='pokemon-list-element'
+              className={`pokemon-list-element ${selectedPokemon.name === pokemon.name ? 'active' : ''}`}
               >
                 <Link to={`/pokemon/${pokemon.name}`}
                 onClick={(e) => {
