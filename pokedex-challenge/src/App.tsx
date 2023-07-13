@@ -7,7 +7,6 @@ import { setPokemonList, updateSelectedPokemon } from './redux/globalSlice';
 import PokemonDetails from './components/pokemon-details/PokemonDetails.component';
 import PokemonList from './components/pokemon-list/PokemonList.component';
 import { Route, Routes } from 'react-router-dom';
-import Button from './components/button/Button.component';
 
 function App() {
   const dispatch = useDispatch();
