@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     .stats-bars-label {
+        font-family: monospace;
         font-size: 18px;
         font-weight: bold;
         margin-right: 5px;
@@ -16,6 +17,7 @@
             align-items: center;
             margin-top: 5px;
             .stat-label {
+                font-family: monospace;
                 margin-right: 5px;
             }
             .progress {

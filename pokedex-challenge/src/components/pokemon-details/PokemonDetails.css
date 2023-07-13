@@ -1,6 +1,8 @@
 .pokemon-details-container {
     display: flex;
     flex-direction: column;
+    padding: 5px;
+    background-color: aliceblue;
     
     .pokemon-types-chips {
       display: flex;

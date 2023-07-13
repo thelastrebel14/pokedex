@@ -1,4 +1,7 @@
 .button {
     margin-right: 10px;
     border-radius: 5px;
+    .button-label {
+        font-family: monospace;
+    }
 }

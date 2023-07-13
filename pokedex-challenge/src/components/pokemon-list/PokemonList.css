@@ -12,9 +12,19 @@
         justify-content: space-between;
         align-items: center;
         margin: 5px;
+        text-decoration: none;
+        .pokemon-link-element-label {
+          color: #000;
+          font-family: monospace;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
         .pokeball{
           max-height: 20px;
           object-fit: contain;
+          margin-left: 5px;
         }
       }
       

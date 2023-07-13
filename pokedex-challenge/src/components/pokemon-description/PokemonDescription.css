@@ -5,6 +5,7 @@
     align-items: center;
     .name-container {
         .name-label {
+            font-family: monospace;
             font-size: 20px;
             font-weight: bold;
         }
@@ -21,10 +22,12 @@
             align-items: center;
             margin: 5px;
             .w-h-label {
+                font-family: monospace;
                 font-size: 16px;
                 font-weight: lighter;
             }
             .w-h-value {
+                font-family: monospace;
                 font-size: 18px;
                 font-weight: bold;
             }
