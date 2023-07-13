@@ -63,7 +63,7 @@ const PokemonList = () => {
                   }
                 }}
                 className='pokemon-link-element'>
-                  <span>{pokemon.name}</span>
+                  <span className='pokemon-link-element-label'>{pokemon.name}</span>
                   <img src={PokeballImg} className='pokeball'></img>
                 </Link>
               </li>
